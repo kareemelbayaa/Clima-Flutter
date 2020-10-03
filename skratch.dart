@@ -1,5 +1,3 @@
-import 'dart:io';
-
 void main()
 {
   performTasks();
@@ -16,12 +14,12 @@ void task1(int taskOrder) {
   print('task$taskOrder is simple synchronous programming');
 }
 
-Future task2(int taskOrder) async{
+Future<String> task2(int taskOrder) async {
   //TODO 1.0 async programming Future.delayed(duration,(){})
   Duration duration = Duration(seconds: 3);
   String result;
 
-  await Future.delayed(duration,(){
+  await Future.delayed(duration, () {
     result = 'result';
     print('task$taskOrder data is: $result');
   });
