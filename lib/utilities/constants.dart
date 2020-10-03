@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const apiKey = '4885e67ffe4d4078f0747b1327cd1804';
+const apiKey = '<update_with_your_own_key>';
 const openWeatherMapURL = 'https://api.openweathermap.org/data/2.5/weather';
 
 const kTextFieldInputDecoration = InputDecoration(
